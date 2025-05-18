@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.log
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# dotenv
+*.env
+.env.*
+
+# Database (optional)
+*.sqlite3
+
+# Migrations (if using Alembic)
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
+
+# Test results
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Pydantic compiled models
+*.pydantic_cache/
+
+# Local dev artifacts
+*.db
+*.bak
+*.swp
